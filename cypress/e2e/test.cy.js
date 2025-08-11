@@ -22,4 +22,20 @@ describe('Test - Formulario', () => {
     cy.contains('STOP').should('be.visible')
     cy.contains('button','STOP').click()
   })
+
+  it('Selección de elementos de tipo checkbox',()=>{
+    cy.viewport('ipad-mini','landscape')
+    cy.visit('https://testautomationpractice.blogspot.com/')
+    cy.get('input[class="form-check-input"][type="checkbox"]').each(($check)=>{
+      let valueText = $check.attr('value')
+      if(valueText.startsWith('s')){
+        cy.wrap($check).check()
+      }
+    })
+  })
+
+  /*it.only('Selección de Link que abre en otra ventana',()=>{
+    cy.visit('https://testautomationpractice.blogspot.com/')
+    cy.get('button[onclick="myFunction()"]').invoke('removeAttr','onclick').click()
+  }*/
 })
