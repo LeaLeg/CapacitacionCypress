@@ -1,0 +1,45 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1755019861709' stop='1755019882438'>
+    <name>Realizar login</name>
+    <title>Realizar login</title>
+    <test-cases>
+        <test-case start='1755019861757' status='broken' stop='1755019882408'>
+            <name>Realizar login con éxito</name>
+            <title>Realizar login con éxito</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Maximum call stack size exceeded
+                
+                Because this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `Realizar login`</message>
+                <stack-trace>RangeError: Maximum call stack size exceeded
+                
+                Because this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `Realizar login`
+                    at &lt;unknown> (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1:1)
+                    at &lt;unknown> (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1:1)
+                    at apply (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1:1)
+                    at &lt;unknown> (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1:1)
+                    at set (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1:1)
+                    at $Cy.SetterGetter [as state] (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1:1)
+                    at $Cy.setSubjectForChainer (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1:1)
+                    at $Cy.setSubjectForChainer (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1:1)
+                    at $Cy.setSubjectForChainer (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1:1)
+                    at $Cy.setSubjectForChainer (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1:1)
+                    at $Cy.setSubjectForChainer (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1:1)
+                    at $Cy.setSubjectForChainer (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1:1)
+                    at $Cy.setSubjectForChainer (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1:1)
+                    at $Cy.setSubjectForChainer (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1:1)
+                    at $Cy.setSubjectForChainer (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1:1)
+                    at $Cy.setSubjectForChainer (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1:1)
+                    at $Cy.setSubjectForChainer (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1:1)
+                    at $Cy.setSubjectForChainer (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1:1)
+                    at $Cy.setSubjectForChainer (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1:1)
+                    at $Cy.setSubjectForChainer (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1:1)
+                    at $Cy.setSubjectForChainer (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1:1)
+                    at $Cy.setSubjectForChainer (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1:1)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,45 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1755004775603' stop='1755004776103'>
+    <name></name>
+    <title></title>
+    <test-cases>
+        <test-case start='1755004775606' status='broken' stop='1755004776098'>
+            <name>An uncaught error was detected outside of a test</name>
+            <title>An uncaught error was detected outside of a test</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>The following error originated from your test code, not from Cypress.
+                
+                  > process is not defined
+                
+                When Cypress detects uncaught errors originating from your test code it will automatically fail the current test.
+                
+                Cypress could not associate this error to any specific test.
+                
+                We dynamically generated a new test to display this failure.</message>
+                <stack-trace>ReferenceError: The following error originated from your test code, not from Cypress.
+                
+                  > process is not defined
+                
+                When Cypress detects uncaught errors originating from your test code it will automatically fail the current test.
+                
+                Cypress could not associate this error to any specific test.
+                
+                We dynamically generated a new test to display this failure.
+                    at ./node_modules/ci-info/index.js (webpack://capacitacioncypress/./node_modules/ci-info/index.js:5:0)
+                    at __webpack_require__ (webpack://capacitacioncypress/webpack/bootstrap:19:0)
+                    at ./node_modules/cypress/lib/util.js (webpack://capacitacioncypress/./node_modules/cypress/lib/util.js:12:13)
+                    at __webpack_require__ (webpack://capacitacioncypress/webpack/bootstrap:19:0)
+                    at ./node_modules/cypress/index.js (webpack://capacitacioncypress/./node_modules/cypress/index.js:6:13)
+                    at __webpack_require__ (webpack://capacitacioncypress/webpack/bootstrap:19:0)
+                    at eval (webpack://capacitacioncypress/./cypress/e2e/RealizarLogin.cy.js:6:0)
+                    at eval (https://www.saucedemo.com/__cypress/tests?p=cypress\e2e\RealizarLogin.cy.js:154444:3)
+                    at eval (https://www.saucedemo.com/__cypress/tests?p=cypress\e2e\RealizarLogin.cy.js:154446:12)
+                    at eval (&lt;anonymous>)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
